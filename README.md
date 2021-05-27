@@ -1,2 +1,2 @@
 # LoopX-Tech-website
-oppx tech website
+LoopX Tech Website
