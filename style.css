@@ -1,0 +1,512 @@
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  background-color:black;
+  overflow-x: hidden;
+  overflow: auto;
+
+}
+
+
+.container{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://media.istockphoto.com/photos/the-hitechnology-material-handing-process-by-robotics-system-tube-picture-id1207515272?b=1&k=6&m=1207515272&s=170667a&w=0&h=ui_Bzo_A3JQFOfjrKRSP3h_kKDe4zAmY3ulXwlXyaIU=");
+  width:100%;
+  height:100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  }
+
+.parent {
+position: fixed;
+top: 0;
+left: 0;
+margin: auto;
+width: 100%;
+z-index:999;
+}
+
+nav{
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding: 5px 50px;
+overflow-x: hidden;
+z-index:999;
+font-family: 'Montserrat', sans-serif;
+background:black;
+}
+
+nav.black{
+  background: rgba(0,0,0,0.5);
+  padding: 5px 50px;
+}
+
+.logo{
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+  word-spacing: 6px;
+  font-family:lovelyn;
+  font-style:italic;
+  }
+
+  .nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+    .nav-ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 20px;
+    text-decoration: none;
+    }
+
+    nav.black .nav-ul li a{
+      padding: 5px 20px;
+    }
+
+    .nav-ul li a:hover{
+      color: #4885ed;
+      }
+
+      .hamburger{
+        background: transparent;
+        border:0;
+        display: none;
+        color:#fff;
+        cursor: pointer;
+        font-size: 20px;
+        }
+        
+        .hamburger:focus{
+        outline: none;
+        }
+         
+
+form {
+  position:relative;
+  width: 300px;
+  height:391px;
+  text-align: center;
+  box-sizing: border-box; 
+  color:white;
+  z-index:9;
+  padding-top:200px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+
+form h2{
+line-height: .5; 
+text-align:justify;
+font-family:lovelyn;
+word-spacing:normal;
+font-size:40px;
+font-weight:900;
+color:white;
+
+}
+
+.button1{
+  display: inline-block;
+  background: #4885ed;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width:300px;
+  height:45px;
+}
+
+.button1:hover {
+  background:#000;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.button2{
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width:300px;
+  height:45px;
+}
+
+.button2:hover {
+  background:rgb(59, 31, 31);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.container p {
+font-size:20px;
+color:white;
+font-weight:900;
+}
+
+.signIn {
+  color:white;
+  font-size:15px;
+  text-decoration:underline;
+}
+
+
+.section2{
+height:auto;
+padding:70px 0px;
+color:white;
+
+}
+
+.section2 .box{
+width: 99%;
+margin:0 auto;
+padding: 20px;
+box-sizing: border-box;
+display:flex;
+}
+
+.section2 .box .imgBx{
+width: 550px;
+flex: 0 0 300px;
+}
+
+.section2 .box .imgBx img{
+width: 550px;
+height:700px;
+border-radius: 10px;
+}
+
+.section2 .box .content{
+padding-top:80px;
+padding-left: 50px;
+}
+
+.section2 .box .content h2{
+font-size: 30px;
+}
+
+.section2 .box .content p{
+line-height: 20px;
+font-size: 18px;
+color:gray;
+line-height:20px;
+}
+
+.section3{
+width:100%;
+height:auto;
+background-color:white
+}
+
+.section3 .container3{
+    background-color: white;
+    width:80%;
+    margin:0 auto;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .section3 .container3 h1 {
+text-align:center;
+padding: 30px 0;
+  }
+
+  .section3 .container3 .container3-cols{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 9rem; 
+  }
+
+  .section3 .container3 .container3-cols #a img{
+width:90%;
+height:600px;
+border-radius:10px;
+  }
+
+  .section3 .container3 .container3-cols #a h4, p{
+  width:80%;
+  }
+
+  .section3 .container3 .container3-cols h4{
+  font-family: lovelyn;
+  font-size: 17px;
+  }
+
+  .section3 .container3 .container3-cols p{
+    font-family: lovelyn;
+    font-size: 17px;
+    color:gray;
+    }
+
+    .section3 .container3 .container3-cols #b img{
+      width:100%;
+      padding-top:100px;
+      height:500px;
+        }
+
+.section3 .container3 .container3-cols #c img{
+  width:100%;
+padding-top:80px;
+height:400px;
+}
+
+.section3 .container3 .container3-cols #d img{
+  width:90%;
+  height:600px;
+  border-radius:10px;
+    }
+
+  /*slideshow styles*/
+  
+  .slideshow {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+.container4{
+  width:100%;
+  height:70vh;
+  background-color:black;
+  color:white;
+ }
+
+ .mySlides {
+ display:none;
+ width:100%;
+ height:50vh;
+ }
+
+ .container4 img{
+float:right;
+height:70vh;
+width:50%;
+padding-left: 40px;
+
+ }
+
+
+
+ .container4 h2{
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  padding:180px 40px;
+  margin: 0px auto;
+  font-family:lovelyn;
+  font-style: italic;
+  font-weight: 900;
+ }
+
+ .container4 a{
+  color:gray;
+  text-decoration:none;
+ }
+
+ .container5{
+    color:black;
+    width:100%;
+    padding: 20px 20px;
+    background-color:white;
+    color:black;
+ }
+
+ .container5 h2{
+  text-align:center;
+  word-spacing:100px;
+  padding:1px;
+  color:black;
+  margin: 0 auto;
+}
+
+.container5 a{
+  color:gray;
+  text-decoration:none;
+  background-color: white;
+  font-size: 40px;
+}
+
+/* .container5 a:hover{
+  color:rgb(59, 31, 31);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+} */
+
+.container5 i {
+  margin-right: 80px;
+  margin-left:80px;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding:14px;
+  color:white;
+}
+
+.container5 i:hover {
+  background-color: white;
+  color: rgb(59, 31, 31);
+}
+
+footer{
+  text-align:center;
+  font-size:15px;
+  background-color:black;
+  color:white;
+  width:100%;
+  height: 60px;
+  padding: 20px;
+ 
+}
+
+@media(max-width: 1020px) {
+  .section2 .box{
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display:flex;
+    }
+
+    .section2 .box .imgBx{
+      width: 100%;
+      flex: 0 0 300px;
+      }
+      
+      .section2 .box .imgBx img{
+      width: 500px;
+      height:700px;
+      border-radius: 10px;
+      }
+
+    .section2 .box .imgBx{
+      width: 400px;
+      flex: 0 0 300px;
+      }
+      
+      .section2 .box .imgBx img{
+      width: 400px;
+      height:600px;
+      border-radius: 10px;
+      }
+      
+      .section2 .box .content{
+      padding-top:80px;
+      padding-left: 50px;
+      }
+}
+
+
+@media(max-width: 900px) {
+  .section2 .box{
+    width: 90%;
+    }
+
+    .section2 .box .imgBx{
+      width: 400px;
+      }
+      
+      .section2 .box .imgBx img{
+      width: 400px;
+      }
+
+      .section3 .container3 .container3-cols{
+        grid-template-columns:  1fr; 
+      }
+      
+}
+
+@media(max-width: 800px){
+  .section2 .box{
+    width: 90%;
+    margin:0 auto;
+    display:block;
+    }
+
+    .section2 .box .imgBx{
+      width: 100%;
+      }
+      
+      .section2 .box .imgBx img{
+      width: 100%;
+      }
+}
+
+@media(max-width: 700px) {
+  nav{
+    background: rgba(0,0,0,0.5);
+    padding: 20px 20px;
+     }
+
+     .nav-ul li a {
+      padding: 20px 20px;
+      }
+ 
+   .nav-ul{
+   display:none;
+   flex-direction: column;
+   width:100%;
+   }
+ 
+   .nav-ul.show{
+   display: flex;
+   }
+ 
+   .hamburger{
+   display: block;
+   }
+
+  .section2 .box{
+    width: 90%;
+    margin:0 auto;
+    display:block;
+    }
+
+    .section2 .box .imgBx{
+      width: 100%;
+      }
+      
+      .section2 .box .imgBx img{
+      width: 100%;
+      }
+
+      .container4{
+        width:100%;
+        height:auto;
+        background-color:black;
+       }
+
+      .container4 img{
+        float:none;
+        width:100%;
+        padding-left:0px;
+        padding-bottom:0px;
+         
+         }
+}
