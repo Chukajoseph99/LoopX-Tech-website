@@ -9,7 +9,6 @@
   height:100%;
   background-color:black;
   overflow-x: hidden;
-  overflow: auto;
 
 }
 
@@ -20,8 +19,8 @@
   height:100vh;
   background-repeat:no-repeat;
   background-size:cover;
-  background-position: center center;
-  }
+  background-position: center center; 
+ }
 
 .parent {
 position: fixed;
